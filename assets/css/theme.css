@@ -9998,7 +9998,8 @@ a.text-white:focus,a.text-white:hover {
 }
 
 .text-muted {
-  color: #6e6e6e!important
+  /* color: #6e6e6e!important */
+    color: #fff;
 }
 
 .text-black-50 {
