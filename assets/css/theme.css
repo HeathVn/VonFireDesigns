@@ -63,7 +63,7 @@ body {
 }
 
 header {
-  background: linear-gradient(#2C3E50,#FD746C);
+  background: linear-gradient(#FF5F6D,#FFC371);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
