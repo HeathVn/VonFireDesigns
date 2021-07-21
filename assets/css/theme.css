@@ -56,10 +56,11 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
+  /* color: #fff; */
   text-align: left;
-  background-color: #0e0e0e;
-  background-size: cover;
+ /* background-color: #0e0e0e; */
+  background-size: cover; 
+  background-image: url("comp.jpg");
 }
 
 header {
@@ -6274,14 +6275,8 @@ a.close.disabled {
 }
 
 .bodcon {
-  position: fixed;
-  z-index: -100;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  background-size: cover;
-  background-image: url("comp.jpg");
+  position: relative;
+
 }
 
 a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:hover {
