@@ -6265,7 +6265,7 @@ a.close.disabled {
 
 .bg-star {
   position: fixed;
-  ;z-index: -100;
+  z-index: -100;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -6274,7 +6274,14 @@ a.close.disabled {
 }
 
 .bodcon {
-  position: relative;
+  position: fixed;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-image: url("comp.jpg");
 }
 
 a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:hover {
