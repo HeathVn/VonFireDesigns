@@ -16,7 +16,16 @@
     <link rel="stylesheet" href="assets/css/theme.css">
 
     <!-- JS -->
-    <script src="assets/js/theme.js" defer></script>
+    <script src="assets/js/theme.js" defer>
+    
+      $(document).ready(function() {
+      $('#headerVideoLink').magnificPopup({
+        type:'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+       });         
+       });
+    
+    </script>
 </head>
 
 <body>
@@ -113,7 +122,25 @@
                      </figure>
                  </a>
                  
+    
+    
+                 <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">
+                     <figure>
+                         <div class="img-overlay mb-3">
+                             <img src="assets/img/networkScience.jpg" alt="Resume" class="img-thumbnail">
+                             <div class="img-hover">
+                                 <p class="img-text">View Web Project</p>
+                             </div>
+                         </div>
+                         <figcaption class="h5 font-weight-normal text-center">Soccer Data Graph Modelling </br> Network Science/ Neo4j Project</figcaption>
+                     </figure>
+                 </a>
+    
+    
+                   <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                
+                   </div>    
                 </div>
               <!--  <div class="col-md-6">
                     <a href="project-3.html" class="grid-item">
