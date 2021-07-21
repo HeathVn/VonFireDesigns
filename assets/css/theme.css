@@ -4080,6 +4080,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 }
 
 .navbar {
+  background-color: linear-gradient(#2C3E50,#FD746C);
   position: relative;
   padding: 0
 }
