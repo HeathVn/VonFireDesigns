@@ -59,7 +59,7 @@ body {
   color: #fff; 
   text-align: left;
  /* background-color: #0e0e0e; */
-  background-size: cover; 
+  background-size: contain; 
   background-image: url("honeycombs.jpeg");
 }
 
