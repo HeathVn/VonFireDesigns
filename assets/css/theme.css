@@ -66,6 +66,10 @@ header {
   background: linear-gradient(#FF5F6D,#FFC371);
 }
 
+footer {
+  background: linear-gradient(#FF5F6D,#FFC371);
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0!important
 }
