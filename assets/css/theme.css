@@ -62,6 +62,10 @@ body {
   background-size: cover;
 }
 
+header {
+  background: linear-gradient(#2C3E50,#FD746C);
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0!important
 }
